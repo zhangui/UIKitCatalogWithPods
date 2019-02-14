@@ -59,9 +59,13 @@
 		53CE5AF81F2A8BD000D8A656 /* SwitchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF61F2A8BD000D8A656 /* SwitchViewController.storyboard */; };
 		53CE5AFB1F2A8BEB00D8A656 /* TextFieldViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF91F2A8BEB00D8A656 /* TextFieldViewController.storyboard */; };
 		B50F41081B1D284700E5147D /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F41071B1D284700E5147D /* StackViewController.swift */; };
+		B7D0ECE2A9C0AD5FD1EC7CAE /* Pods_UIKitCatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EC3C388AA9AAB927461FDC /* Pods_UIKitCatalog.framework */; };
+		DEF64012221156670075FF77 /* CustomUIWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF64011221156670075FF77 /* CustomUIWindow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BDB5EF6F04E30ACE804086A /* Pods-UIKitCatalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitCatalog.release.xcconfig"; path = "Target Support Files/Pods-UIKitCatalog/Pods-UIKitCatalog.release.xcconfig"; sourceTree = "<group>"; };
+		12E4D5F1D5FADDD6F4B6D88D /* Pods-UIKitCatalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitCatalog.debug.xcconfig"; path = "Target Support Files/Pods-UIKitCatalog/Pods-UIKitCatalog.debug.xcconfig"; sourceTree = "<group>"; };
 		2200541A18BC54E8002A6E8B /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		2200541B18BC54E8002A6E8B /* AlertControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AlertControllerViewController.swift; sourceTree = "<group>"; };
 		2200541C18BC54E8002A6E8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,9 +120,12 @@
 		53CE5AF41F2A8BB000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StepperViewController.storyboard; sourceTree = "<group>"; };
 		53CE5AF71F2A8BD000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SwitchViewController.storyboard; sourceTree = "<group>"; };
 		53CE5AFA1F2A8BEB00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TextFieldViewController.storyboard; sourceTree = "<group>"; };
+		76EC3C388AA9AAB927461FDC /* Pods_UIKitCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50F41071B1D284700E5147D /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
-		E05970B0E05971D000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		E2DECA10E2DE8B8000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		DEF640062210C48F0075FF77 /* CustomUIWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomUIWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF64011221156670075FF77 /* CustomUIWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomUIWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05970B0E05971D000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		E2DECA10E2DE8B8000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF64012221156670075FF77 /* CustomUIWindow.framework in Frameworks */,
+				B7D0ECE2A9C0AD5FD1EC7CAE /* Pods_UIKitCatalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +149,8 @@
 				228DB9F418BC53F1002BA12A /* Products */,
 				E05975F0E0597BF000000001 /* Configuration */,
 				E2DE9120E2DEC9A000000001 /* LICENSE */,
+				299A3C076CC382D774D452FC /* Pods */,
+				E977459BA02ED3087F481703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +206,15 @@
 				5341627A1F291F310007BCCA /* ToolbarViewControllers.storyboard */,
 			);
 			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		299A3C076CC382D774D452FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12E4D5F1D5FADDD6F4B6D88D /* Pods-UIKitCatalog.debug.xcconfig */,
+				0BDB5EF6F04E30ACE804086A /* Pods-UIKitCatalog.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		3E1DA7601931CC99000114A9 /* View Controllers */ = {
@@ -272,8 +292,17 @@
 			children = (
 				E2DECA10E2DE8B8000000001 /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		E977459BA02ED3087F481703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF64011221156670075FF77 /* CustomUIWindow.framework */,
+				DEF640062210C48F0075FF77 /* CustomUIWindow.framework */,
+				76EC3C388AA9AAB927461FDC /* Pods_UIKitCatalog.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,10 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228DBA0B18BC53F1002BA12A /* Build configuration list for PBXNativeTarget "UIKitCatalog" */;
 			buildPhases = (
+				815987D7B7AC5DE947888C41 /* [CP] Check Pods Manifest.lock */,
 				228DB9EF18BC53F1002BA12A /* Sources */,
 				228DB9F018BC53F1002BA12A /* Frameworks */,
 				228DB9F118BC53F1002BA12A /* Resources */,
-				5399BE86211B482A005809B6,
+				6CE222E9B18F1EB76322AD25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,6 +338,7 @@
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					228DB9F218BC53F1002BA12A = {
+						DevelopmentTeam = V63ERE8693;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -363,6 +394,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CE222E9B18F1EB76322AD25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKitCatalog/Pods-UIKitCatalog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CustomUIWindow/CustomUIWindow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CustomUIWindow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKitCatalog/Pods-UIKitCatalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815987D7B7AC5DE947888C41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIKitCatalog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		228DB9EF18BC53F1002BA12A /* Sources */ = {
@@ -592,7 +670,6 @@
 /* Begin XCBuildConfiguration section */
 		228DBA0918BC53F1002BA12A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E05970B0E05971D000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -647,7 +724,6 @@
 		};
 		228DBA0A18BC53F1002BA12A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E05970B0E05971D000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -695,10 +771,10 @@
 		};
 		228DBA0C18BC53F1002BA12A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E05970B0E05971D000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = 12E4D5F1D5FADDD6F4B6D88D /* Pods-UIKitCatalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V63ERE8693;
 				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
@@ -713,10 +789,10 @@
 		};
 		228DBA0D18BC53F1002BA12A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E05970B0E05971D000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = 0BDB5EF6F04E30ACE804086A /* Pods-UIKitCatalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V63ERE8693;
 				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";

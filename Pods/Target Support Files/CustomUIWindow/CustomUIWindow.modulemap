@@ -1,0 +1,6 @@
+framework module CustomUIWindow {
+  umbrella header "CustomUIWindow-umbrella.h"
+
+  export *
+  module * { export * }
+}

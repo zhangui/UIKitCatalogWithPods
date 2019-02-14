@@ -1,0 +1,16 @@
+PODS:
+  - CustomUIWindow (0.1.6)
+
+DEPENDENCIES:
+  - CustomUIWindow (~> 0.1.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CustomUIWindow
+
+SPEC CHECKSUMS:
+  CustomUIWindow: 7fe2e916d3cc6b3f4a9fee5319f8d81d45a20e3c
+
+PODFILE CHECKSUM: 81742de8321a2bba8e0d650f95a74e440d642885
+
+COCOAPODS: 1.6.0

@@ -6,12 +6,20 @@ The application-specific delegate class.
 */
 
 import UIKit
+import CustomUIWindow
 
 @UIApplicationMain
 class AppDelegate: NSObject, UIApplicationDelegate, UISplitViewControllerDelegate {
     // MARK: - Properties
 
-    var window: UIWindow?
+    var myWindow: CustomUIWindow?
+    var window: UIWindow? {
+        get {
+            myWindow = myWindow ?? CustomUIWindow(frame: UIScreen.main.bounds)
+            return myWindow
+        }
+        set { }
+    }
 	
 	/** The detailViewManager is responsible for maintaining the UISplitViewController delegation
 		and for managing the detail view controller of the split view.
